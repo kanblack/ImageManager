@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/row_stylecolor_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/bg_main"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/row_stylecolor_tv_color"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:text="BatchName"
+                android:textColor="#4d4d4d"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/row_stylecolor_tv_upc"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:text="BatchName"
+                android:textColor="#4d4d4d"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ui.ButtonAT
+            android:visibility="gone"
+            android:id="@+id/row_stylecorlor_verify"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:background="@drawable/verify_button"
+            android:focusable="false"
+            android:text="Verify" />
+    </LinearLayout>
+
+</LinearLayout>

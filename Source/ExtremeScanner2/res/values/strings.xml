@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExtremeScanner</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="image_count">%1$s \u002F %2$s</string>
+    <string name="host">http://www.k5.com.au/bm-test/api/</string>
+    <string name="camera_total_amount">Camera total amount: %1$</string>
+    <string name="camera_back_amount">Back camera amount: %1$, %2$ ,p</string>
+    <string name="camera_first_amount">First camera amount: %1$, %2$ mp</string>
+    <string name="camera_back_iso">iso: %1$</string>
+    <string name="camera_first_iso">iso: %1$</string>
+
+</resources>

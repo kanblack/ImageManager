@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="k" parent="@style/_k"/>
+
+  <style name="_k" parent="android:Theme.Light">
+
+    <item name="android:editTextStyle">@style/EditTextk</item>
+
+    <item name="android:buttonStyle">@style/Buttonk</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonk</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBark</item>
+
+  </style>
+
+</resources>

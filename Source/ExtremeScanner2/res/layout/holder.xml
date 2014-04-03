@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="eXtremScanner verison 1.0"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher" />
+
+    <CheckBox
+        android:id="@+id/cb_archive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Archive" />
+
+</LinearLayout>
